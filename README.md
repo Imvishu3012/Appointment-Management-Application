@@ -1,6 +1,6 @@
 Appointment Booking App
 
-A simple doctor appointment booking application built using Next.js, React, and Tailwind CSS.
+Doctor appointment booking application.
 
 ## Features
 
