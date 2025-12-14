@@ -2,7 +2,7 @@ Appointment Booking App
 
 A simple doctor appointment booking application built using Next.js, React, and Tailwind CSS.
 
-#Features
+## Features
 
 --View list of doctors
 
@@ -16,7 +16,9 @@ A simple doctor appointment booking application built using Next.js, React, and 
 -- Uploaded the project on Vercel 
 --Using Vercel link App can be accessed
 
-Tech Stack
+## Tech Stack
 --Next.js
+
 --React
+
 --Tailwind CSS
