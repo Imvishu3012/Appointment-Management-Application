@@ -15,7 +15,7 @@ export default function DoctorsList({ setSelectedDoctor, setCurrentPage }) {
                 setSelectedDoctor(doctor.id.toString());
                 setCurrentPage("book");
               }}
-              className="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+              className="mt-4 bg-blue-600 text-white px-4 py-2 cursor-pointer rounded hover:bg-blue-700"
             >
               Book Appointment
             </button>

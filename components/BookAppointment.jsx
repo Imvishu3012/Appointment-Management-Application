@@ -18,7 +18,9 @@ export default function BookAppointment({
       <h2 className="text-3xl font-bold mb-6 text-black">Book Appointment</h2>
       <div className="bg-white p-8 rounded-lg shadow max-w-2xl">
         <div className="mb-4">
-          <label className="block font-bold mb-2 text-black">Patient Name *</label>
+          <label className="block font-bold mb-2 text-black">
+            Patient Name *
+          </label>
           <input
             type="text"
             placeholder="Enter your Name"
@@ -32,7 +34,9 @@ export default function BookAppointment({
         </div>
 
         <div className="mb-4">
-          <label className="block font-bold mb-2 text-black">Select Doctor *</label>
+          <label className="block font-bold mb-2 text-black">
+            Select Doctor *
+          </label>
           <select
             value={selectedDoctor}
             onChange={(e) => setSelectedDoctor(e.target.value)}
@@ -41,7 +45,7 @@ export default function BookAppointment({
             <option value="">Choose a doctor</option>
             {doctorsList.map((d) => (
               <option key={d.id} value={d.id}>
-                {d.name} - {d.specialization} (${d.fee})
+                {d.name} - {d.specialization} (₹{d.fee})
               </option>
             ))}
           </select>
